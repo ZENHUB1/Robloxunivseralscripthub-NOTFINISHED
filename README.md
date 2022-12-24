@@ -1,5 +1,3 @@
-([[ have fun using my script that allows you to acces multiple script hubs or hacks.]])
-
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ZEN", "GrapeTheme")
 
@@ -55,6 +53,36 @@ end)
 local ABX = Window:NewTab("ABX")
 local ABXSection = ABX:NewSection("ABX")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+ABXSection:NewButton("abx hack", "no info goofball", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/RobloxScript/main/Anime%20Battlegrounds%20X.lua", true))()
+end)
+
+local standsonline= Window:NewTab("standsonline")
+local standsonlineSection = standsonline:NewSection("stands online")
+
+standsonlineSection:NewButton("stands online hack", "item esp, auto farm, you get it", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/omokom55/BaconHub/main/StandsOnlineV2", true))()
+end)
+
+local dragonblox = Window:NewTab("dragonblox")
+local dragonbloxSection = dragonblox:NewSection("dragonblox")
+
+dragonbloxSection:NewButton("dragon blox hack", "its a hack bruh", function()
+    -- if auto quest or script not working abandon your all quest
+ 
+_G.Farm = true -- auto farm
+_G.Target = "Bandit" -- target for farm
+_G.AutoChest = true -- loot drop from chest
+ 
+--[[
+    -- Mob List:
+ 
+    -- Bandit
+    -- Mad Bandit
+    -- Evil Thug
+    -- Tigreal Tribe
+    -- Gorilla Tribe
+]]
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/omokom55/FreeScripts/main/Dragon%20Blox", true))() 
 end)
