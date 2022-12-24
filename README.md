@@ -1,6 +1,6 @@
-# Robloxunivseralscripthub-NOTFINISHED
-not finished universal scripthub for games on roblox.
-Paste into your executor, have fun! start copying from here:local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+([[ have fun using my script that allows you to acces multiple script hubs or hacks.]])
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ZEN", "GrapeTheme")
 
 -- DAHOOD
