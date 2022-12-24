@@ -48,9 +48,13 @@ end)
 local MM2 = Window:NewTab("MM2")
 local MM2Section = MM2:NewSection("MM2")
 
-Section:NewButton("ButtonText", "ButtonInfo", function()
+MM2Section:NewButton("eclispe hub", "yoo", function()
     local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end)
 
-local ABX = Window:NewTab("Anime Battle Grounds x")
-local ABXSection = Anime Battle Grounds x:NewSection("Anime Battle Grounds x")
+local ABX = Window:NewTab("ABX")
+local ABXSection = ABX:NewSection("ABX")
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/RobloxScript/main/Anime%20Battlegrounds%20X.lua", true))()
+end)
